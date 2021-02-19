@@ -1,0 +1,47 @@
+li {
+    font-size: 1rem;
+}
+
+.buttonBot{
+    display: none;
+    position: absolute;
+    right: 3vw;
+}
+
+.photo {
+    margin-bottom: 5px;
+}
+
+
+@media (min-width: 320px) {
+    .smallSize{display: block !important;
+                clear: both;
+    }
+    .photo{width:25vw;}
+}
+@media (min-width: 577px) {
+    .smallSize{display: block !important;
+        clear: both;
+    }
+    .photo{width:30vw;}
+}
+@media (min-width: 768px) {
+    .smallSize{display: flex !important;
+        clear: both;
+    }
+    .photo{width:22vw;}
+}
+@media (min-width: 992px) {
+    .smallSize{display: flex !important;
+        clear: both;
+    }
+    .photo{width:auto;}
+}
+@media (min-width: 1200px) {
+    .smallSize{display: flex !important;
+        clear: both;
+    }
+    .photo{width:auto;}
+}
+
+
